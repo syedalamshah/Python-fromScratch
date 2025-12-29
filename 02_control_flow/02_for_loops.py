@@ -38,7 +38,7 @@ print()
 print("\n=== ENUMERATE() ===")
 # Get index and value
 colors = ["red", "green", "blue"]
-for index, color in colors:
+for index, color in enumerate(colors):
     print(f"Index {index}: {color}")
 
 print("\n=== NESTED LOOPS ===")
